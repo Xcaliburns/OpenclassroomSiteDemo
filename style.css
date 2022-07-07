@@ -1,0 +1,207 @@
+#blocPage
+{	padding: 10em;
+	background: #979684 ;
+	text-align: center;
+
+}
+
+#banniere
+
+{	text-align: center;
+	height: 20em;	
+	background-image: url("images/banniere.jpg") ;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-bottom: 2em;
+	margin-bottom: 2em;
+}
+
+#conteneur
+{
+    display: flex;
+   
+}
+
+nav
+{	
+									
+	background-color: #978E79; 
+	border: 5px solid #e4e0e0;
+	
+		
+	
+}
+
+ul
+{	
+	margin-left: 2em;
+	padding: 9em;	
+	display: inline;
+}
+li{	margin-left: 5em;
+	text-align: left;
+}
+li:hover{
+	transition-property: transform;
+	transition-duration: 400ms;
+	transform: scale(1.5);
+}
+
+img{
+	background-color: #978E79;
+	margin: auto;
+	padding: 4em;
+	border: 5px solid #e4e0e0;
+}
+
+img:hover
+{
+	transition-property: transform;
+	transition-duration: 400ms;
+	transform: scale(2);
+}
+
+iframe
+{	background-color: #978E79;
+	padding: 1em;
+	border: 5px solid #e4e0e0;
+}
+iframe:hover {
+	transition-property: transform;
+	transition-duration: 400ms;
+	transform: scale(1.15);
+}
+
+h1
+{
+	font-size: 3em;
+}
+
+h2
+{
+	font-size: 3em;
+	text-align: center;
+}
+
+p
+{	font-size: 1.2em;
+	text-align: left;
+}
+
+.article
+{
+	text-align: right;
+	
+	padding-left: justify;
+	margin-left: 10%;
+}
+
+
+
+
+
+
+/* Pour les pages faisant au max 1024pxde large */
+@media screen and (max-width: 1024px)
+{
+	#blocPage
+{	width: auto;
+	background: #979684 ;
+	text-align: center;
+
+}
+
+#banniere
+
+{	text-align: center;
+	height: 5em;	
+	background-image: url("images/banniere.jpg") ;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-bottom: 2em;
+	margin-bottom: 2em;
+}
+
+
+
+nav
+{										
+	background-color: #978E79; 
+	border: 5px solid #e4e0e0;
+	
+}
+
+ul
+{	
+	margin-left: 2em;
+	padding: 9em;	
+	display: inline;
+}
+li{	
+	text-align: left;
+}
+
+
+img{
+	background-color: #978E79;
+	margin: auto;
+	padding: 4em;
+	border: 5px solid #e4e0e0;
+}
+
+
+
+iframe
+{	background-color: #978E79;
+	padding: 1em;
+	border: 5px solid #e4e0e0;
+}
+
+
+
+h1
+{
+	font-size: 1em;
+}
+
+h2
+{
+	font-size: 1em;
+	text-align: center;
+}
+
+p
+{	font-size: 1.2em;
+	text-align: left;
+}
+
+.article
+{
+	text-align: right;
+	
+	padding-left: justify;
+	
+}
+iframe:hover {
+	transition-property: none;
+	transition-duration: 400ms;
+	transform: scale(1);
+}
+#conteneur
+{
+    display:block ;
+   
+}
+img:hover
+{
+	transition-property: none;
+	transition-duration: 400ms;
+	transform: scale(1);
+}
+li:hover{
+	transition-property: none;
+	transition-duration: 400ms;
+	transform: scale(1);
+}
+}
+	
